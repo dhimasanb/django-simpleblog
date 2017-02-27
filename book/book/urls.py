@@ -19,5 +19,6 @@ from book import views as book_views
 
 urlpatterns = [
     url(r'^$', book_views.index),
+    url(r'^about/$', book_views.about),
     url(r'^admin/', admin.site.urls),
 ]
